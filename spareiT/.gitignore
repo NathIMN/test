@@ -1,0 +1,16 @@
+# Java build files
+*.class
+
+# Eclipse specific
+.settings/
+.project
+.classpath
+
+# Build directories
+build/
+target/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
