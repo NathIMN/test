@@ -1,0 +1,154 @@
+:root {
+  --primary: #f2613f;
+  --primary-dark: #9b3922;
+  --primary-light: #d97757;
+  --dark: #121212;
+  --dark-accent: #1e1e1e;
+  --gray: #333333;
+  --light-gray: #555555;
+  --lighter-gray: #888888;
+  --text: #e0e0e0;
+  --bs-heading-color: var(--lighter-gray);
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: var(--dark-accent) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: var(--primary) !important;
+}
+
+.nav-link {
+  color: var(--text) !important;
+}
+
+.nav-link.active {
+  color: var(--primary) !important;
+}
+
+.hero-section {
+  background-color: var(--dark-accent);
+  color: var(--text);
+  padding: 100px 0;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-light {
+  border-color: var(--text);
+  color: var(--text);
+}
+
+.card {
+  background-color: var(--dark-accent);
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  color: var(--lighter-gray);
+}
+
+.card-title {
+  color: var(--lighter-gray);
+}
+
+.bg-light {
+  background-color: var(--gray) !important;
+}
+
+.text-muted {
+  color: #aaaaaa !important;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--primary-dark) !important;
+}
+
+.text-warning {
+  color: var(--primary-light) !important;
+}
+
+.partner-logo {
+  height: 60px;
+  margin: 15px;
+  filter: brightness(0.8) grayscale(50%);
+  transition: filter 0.3s;
+}
+
+.partner-logo:hover {
+  filter: brightness(1) grayscale(0%);
+}
+
+.footer {
+  background-color: var(--dark-accent);
+  padding: 30px 0;
+}
+
+hr {
+  background-color: var(--light-gray);
+  opacity: 0.2;
+}
+
+.form-control {
+  background-color: var(--gray);
+  border: none;
+  color: var(--text);
+}
+
+.form-select {
+  background-color: var(--gray);
+  border: none;
+  color: var(--text);
+}
+
+.form-select option {
+  background-color: var(--gray);
+  color: var(--text);
+}
+
+.form-check-label {
+  color: var(--lighter-gray);
+}
+
+.social-icons a {
+  color: var(--primary-light) !important;
+}
+
+.social-icons a:hover {
+  color: var(--primary) !important;
+}
