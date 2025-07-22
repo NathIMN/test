@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+:root {
+       --bs-primary: #f2613f;
+       --bs-primary-rgb: 242, 97, 63;
+       --bs-primary-dark: #9b3922;
+       --bs-primary-light: #d97757;
+       --bs-dark: #121212;
+       --bs-dark-rgb: 18, 18, 18;
+       --bs-dark-accent: #1e1e1e;
+       --bs-gray: #333333;
+       --bs-light-gray: #555555;
+       --bs-lighter-gray: #888888;
+     }
+     
+     .navbar-brand {
+       color: var(--bs-primary) !important;
+       font-weight: bold;
+       font-size: 2rem;
+     }
+     
+     .btn-primary {
+       background-color: var(--bs-primary);
+       border-color: var(--bs-primary);
+     }
+     
+     .btn-primary:hover {
+       background-color: var(--bs-primary-dark);
+       border-color: var(--bs-primary-dark);
+     }
+     
+     .btn-outline-primary {
+       border-color: var(--bs-primary);
+       color: var(--bs-primary);
+     }
+     
+     .btn-outline-primary:hover {
+       background-color: var(--bs-primary);
+       border-color: var(--bs-primary);
+     }
+     
+     body {
+       background-color: var(--bs-dark);
+       color: #e0e0e0;
+     }
+     
+
+     .bg-dark-accent {
+       background-color: var(--bs-dark-accent) !important;
+     }
+     
+     .bg-gray {
+       background-color: var(--bs-light-gray) !important;
+     }
+     
+     .feature-icon {
+       font-size: 2.5rem;
+       margin-bottom: 1rem;
+       color: var(--bs-primary);
+     }
+     
+     .partner-logo {
+       height: 60px;
+       margin: 15px;
+       filter: brightness(0.8) grayscale(50%);
+       transition: filter 0.3s;
+     }
+     
+     .partner-logo:hover {
+       filter: brightness(1) grayscale(0%);
+     }
+     
+     .form-control, .form-select {
+       background-color: var(--bs-gray);
+       border: none;
+       color: #e0e0e0;
+     }
+     
+     .form-select option {
+       background-color: var(--bs-gray);
+       color: #e0e0e0;
+     }
+     
+     .card {
+       background-color: var(--bs-dark-accent);
+       border: none;
+     }
+     
+     .text-warning {
+       color: var(--bs-primary-light) !important;
+     }
+     
+     .bg-primary {
+       background-color: var(--bs-primary-dark) !important;
+     }
+
+     .nav-link.active {
+	  color: var(--bs-primary) !important;
+	}
